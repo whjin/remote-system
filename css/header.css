@@ -1,0 +1,21 @@
+.bigTitle {
+  padding-left: 46px;
+  background-color: #010a1b;
+  border-bottom: 2px solid rgba(0, 111, 233, 0.48);
+  box-sizing: border-box;
+  width: 100%;
+  height: 99px;
+  display: flex;
+  align-items: center;
+}
+
+.logout {
+  display: none;
+  background: url("/assets/quit.png") no-repeat 0 8px;
+  color: rgba(255, 255, 255, 1);
+  font: bold 20px/46px Microsoft YaHei;
+  cursor: pointer;
+  position: absolute;
+  right: 50px;
+  padding-left: 40px;
+}

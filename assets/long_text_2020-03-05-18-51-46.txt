@@ -1,0 +1,69 @@
+um.setContent('<p>\n' +
+    '    <br/>\n' +
+    '</p>\n' +
+    '<p class="p1" style="margin-top: 0px; margin-bottom: 7.8px; text-align: center; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 22px; line-height: normal; font-family: &quot;PingFang SC&quot;; -webkit-text-stroke-color: rgb(0, 0, 0); white-space: normal;">\n' +
+    '    <span class="s1" style="font-kerning: none;">询问笔录</span>\n' +
+    '</p>\n' +
+    '<p class="p2" style="margin-top: 0px; margin-bottom: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &quot;Trebuchet MS&quot;; -webkit-text-stroke-color: rgb(0, 0, 0); white-space: normal;">\n' +
+    '    <span class="s2" style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; line-height: normal; font-family: &quot;Songti SC&quot;; font-kerning: none;">时间</span><span class="s1" style="font-kerning: none;">____</span><span class="s2" style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; line-height: normal; font-family: &quot;Songti SC&quot;; font-kerning: none;">年</span><span class="s1" style="font-kerning: none;">__</span><span class="s2" style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; line-height: normal; font-family: &quot;Songti SC&quot;; font-kerning: none;">月</span><span class="s1" style="font-kerning: none;">___</span><span class="s2" style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; line-height: normal; font-family: &quot;Songti SC&quot;; font-kerning: none;">日</span><span class="s1" style="font-kerning: none;">___</span><span class="s2" style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; line-height: normal; font-family: &quot;Songti SC&quot;; font-kerning: none;">时</span><span class="s1" style="font-kerning: none;">___</span><span class="s2" style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; line-height: normal; font-family: &quot;Songti SC&quot;; font-kerning: none;">分至</span><span class="s1" style="font-kerning: none;">____</span><span class="s2" style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; line-height: normal; font-family: &quot;Songti SC&quot;; font-kerning: none;">年</span><span class="s1" style="font-kerning: none;">__</span><span class="s2" style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; line-height: normal; font-family: &quot;Songti SC&quot;; font-kerning: none;">月</span><span class="s1" style="font-kerning: none;">___</span><span class="s2" style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; line-height: normal; font-family: &quot;Songti SC&quot;; font-kerning: none;">日</span><span class="s1" style="font-kerning: none;">___</span><span class="s2" style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; line-height: normal; font-family: &quot;Songti SC&quot;; font-kerning: none;">时</span><span class="s1" style="font-kerning: none;">___</span><span class="s2" style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; line-height: normal; font-family: &quot;Songti SC&quot;; font-kerning: none;">分</span>\n' +
+    '</p>\n' +
+    '<p class="p2" style="margin-top: 0px; margin-bottom: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &quot;Trebuchet MS&quot;; -webkit-text-stroke-color: rgb(0, 0, 0); white-space: normal;">\n' +
+    '    <span class="s2" style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; line-height: normal; font-family: &quot;Songti SC&quot;; font-kerning: none;">地点</span><span class="s1" style="font-kerning: none;">_______________________________________________________</span>\n' +
+    '</p>\n' +
+    '<p class="p2" style="margin-top: 0px; margin-bottom: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &quot;Trebuchet MS&quot;; -webkit-text-stroke-color: rgb(0, 0, 0); white-space: normal;">\n' +
+    '    <span class="s2" style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; line-height: normal; font-family: &quot;Songti SC&quot;; font-kerning: none;">侦查员姓名、单位</span><span class="s1" style="font-kerning: none;">___________________________________________</span>\n' +
+    '</p>\n' +
+    '<p class="p2" style="margin-top: 0px; margin-bottom: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &quot;Trebuchet MS&quot;; -webkit-text-stroke-color: rgb(0, 0, 0); white-space: normal;">\n' +
+    '    <span class="s2" style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; line-height: normal; font-family: &quot;Songti SC&quot;; font-kerning: none;">记录员</span><span class="s1" style="font-kerning: none;">__________________ </span><span class="s2" style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; line-height: normal; font-family: &quot;Songti SC&quot;; font-kerning: none;">单位</span><span class="s1" style="font-kerning: none;">______________________________</span>\n' +
+    '</p>\n' +
+    '<p class="p2" style="margin-top: 0px; margin-bottom: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &quot;Trebuchet MS&quot;; -webkit-text-stroke-color: rgb(0, 0, 0); white-space: normal;">\n' +
+    '    <span class="s2" style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; line-height: normal; font-family: &quot;Songti SC&quot;; font-kerning: none;">被询问人</span><span class="s1" style="font-kerning: none;">________</span><span class="s2" style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; line-height: normal; font-family: &quot;Songti SC&quot;; font-kerning: none;">性别</span><span class="s1" style="font-kerning: none;">______</span><span class="s2" style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; line-height: normal; font-family: &quot;Songti SC&quot;; font-kerning: none;">年龄</span><span class="s1" style="font-kerning: none;">____</span><span class="s2" style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; line-height: normal; font-family: &quot;Songti SC&quot;; font-kerning: none;">单位</span><span class="s1" style="font-kerning: none;">_____________________</span>\n' +
+    '</p>\n' +
+    '<p class="p2" style="margin-top: 0px; margin-bottom: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &quot;Trebuchet MS&quot;; -webkit-text-stroke-color: rgb(0, 0, 0); white-space: normal;">\n' +
+    '    <span class="s2" style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; line-height: normal; font-family: &quot;Songti SC&quot;; font-kerning: none;">问</span><span class="s1" style="font-kerning: none;">_________________________________________________________</span>\n' +
+    '</p>\n' +
+    '<p class="p2" style="margin-top: 0px; margin-bottom: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &quot;Trebuchet MS&quot;; -webkit-text-stroke-color: rgb(0, 0, 0); white-space: normal;">\n' +
+    '    <span class="s1" style="font-kerning: none;">___________________________________________________________</span>\n' +
+    '</p>\n' +
+    '<p class="p2" style="margin-top: 0px; margin-bottom: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &quot;Trebuchet MS&quot;; -webkit-text-stroke-color: rgb(0, 0, 0); white-space: normal;">\n' +
+    '    <span class="s1" style="font-kerning: none;">___________________________________________________________</span>\n' +
+    '</p>\n' +
+    '<p class="p2" style="margin-top: 0px; margin-bottom: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &quot;Trebuchet MS&quot;; -webkit-text-stroke-color: rgb(0, 0, 0); white-space: normal;">\n' +
+    '    <span class="s1" style="font-kerning: none;">___________________________________________________________</span>\n' +
+    '</p>\n' +
+    '<p class="p2" style="margin-top: 0px; margin-bottom: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &quot;Trebuchet MS&quot;; -webkit-text-stroke-color: rgb(0, 0, 0); white-space: normal;">\n' +
+    '    <span class="s1" style="font-kerning: none;">___________________________________________________________</span>\n' +
+    '</p>\n' +
+    '<p class="p2" style="margin-top: 0px; margin-bottom: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &quot;Trebuchet MS&quot;; -webkit-text-stroke-color: rgb(0, 0, 0); white-space: normal;">\n' +
+    '    <span class="s1" style="font-kerning: none;">___________________________________________________________</span>\n' +
+    '</p>\n' +
+    '<p class="p2" style="margin-top: 0px; margin-bottom: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &quot;Trebuchet MS&quot;; -webkit-text-stroke-color: rgb(0, 0, 0); white-space: normal;">\n' +
+    '    <span class="s1" style="font-kerning: none;">___________________________________________________________</span>\n' +
+    '</p>\n' +
+    '<p class="p2" style="margin-top: 0px; margin-bottom: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &quot;Trebuchet MS&quot;; -webkit-text-stroke-color: rgb(0, 0, 0); white-space: normal;">\n' +
+    '    <span class="s1" style="font-kerning: none;">___________________________________________________________</span>\n' +
+    '</p>\n' +
+    '<p class="p2" style="margin-top: 0px; margin-bottom: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &quot;Trebuchet MS&quot;; -webkit-text-stroke-color: rgb(0, 0, 0); white-space: normal;">\n' +
+    '    <span class="s1" style="font-kerning: none;">___________________________________________________________</span>\n' +
+    '</p>\n' +
+    '<p class="p2" style="margin-top: 0px; margin-bottom: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &quot;Trebuchet MS&quot;; -webkit-text-stroke-color: rgb(0, 0, 0); white-space: normal;">\n' +
+    '    <span class="s1" style="font-kerning: none;">___________________________________________________________</span>\n' +
+    '</p>\n' +
+    '<p class="p2" style="margin-top: 0px; margin-bottom: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &quot;Trebuchet MS&quot;; -webkit-text-stroke-color: rgb(0, 0, 0); white-space: normal;">\n' +
+    '    <span class="s1" style="font-kerning: none;">___________________________________________________________</span>\n' +
+    '</p>\n' +
+    '<p class="p2" style="margin-top: 0px; margin-bottom: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &quot;Trebuchet MS&quot;; -webkit-text-stroke-color: rgb(0, 0, 0); white-space: normal;">\n' +
+    '    <span class="s1" style="font-kerning: none;">___________________________________________________________</span>\n' +
+    '</p>\n' +
+    '<p class="p2" style="margin-top: 0px; margin-bottom: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &quot;Trebuchet MS&quot;; -webkit-text-stroke-color: rgb(0, 0, 0); white-space: normal;">\n' +
+    '    <span class="s1" style="font-kerning: none;">___________________________________________________________</span>\n' +
+    '</p>\n' +
+    '<p class="p2" style="margin-top: 0px; margin-bottom: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &quot;Trebuchet MS&quot;; -webkit-text-stroke-color: rgb(0, 0, 0); white-space: normal;">\n' +
+    '    <span class="s1" style="font-kerning: none;">___________________________________________________________</span>\n' +
+    '</p>\n' +
+    '<p class="p2" style="margin-top: 0px; margin-bottom: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: &quot;Trebuchet MS&quot;; -webkit-text-stroke-color: rgb(0, 0, 0); white-space: normal;">\n' +
+    '    <span class="s1" style="font-kerning: none;">_____________________________________ ______________________</span>\n' +
+    '</p>\n' +
+    '<p>\n' +
+    '    <br/>\n' +
+    '</p>');

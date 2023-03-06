@@ -1,0 +1,16 @@
+var ws = "";
+var m_isConnectWS = false;
+var m_splitTag = "$*$";
+var m_lastMessage = "";
+var m_imageDataH = 0;
+var m_imageDataW = 0;
+var m_imageDataS = 0;
+var m_stopWait = false; //同步等待
+var m_closed = false; //是否被关闭了
+var m_ComparePicBase64 = false; //是否是人脸比对base64
+var m_compareShowID = ""; //显示人脸模块base64的控件id
+var m_idcardBase64 = false; //是否是身份证图片的base64
+var retCapture = 1;
+var ocrFile = "";
+var ocrType = 0;
+var camDevInd = 0; // 0-高拍仪 1-摄像头

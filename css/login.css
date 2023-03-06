@@ -1,0 +1,58 @@
+.loginBox {
+  height: 100%;
+  width: 415px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.peopleImgBox {
+  box-shadow: inset 0 0 20px #5da6de;
+  border: 1px solid #4ea5cc;
+  width: 250px;
+  height: 350px;
+  border-radius: 4px;
+  margin: 0 auto 30px auto;
+  padding: 10px;
+}
+
+.message {
+  font: 20px/40px Microsoft YaHei;
+}
+
+.messageTitle {
+  color: rgba(53, 255, 250, 1);
+}
+
+.messageName {
+  color: #fff;
+}
+
+.loginBtn {
+  background: url("/assets/login.png") no-repeat;
+  background-size: 100% 100%;
+  width: 160px;
+  height: 70px;
+  border: 0 none;
+  color: rgba(255, 255, 255, 1);
+  font: 26px/70px Microsoft YaHei;
+  cursor: pointer;
+  margin-top: 40px;
+}
+
+.login {
+  width: 250px;
+  height: 40px;
+  background: transparent;
+  -webkit-box-shadow: inset 0 0 8px #316e97;
+  box-shadow: inset 0 0 8px #316e97;
+  border: 1px solid #316e97;
+  margin: 5px 0 5px 0;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 0;
+  padding-left: 7px;
+}

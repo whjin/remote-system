@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Time</title>
+  <link rel="stylesheet" href="/css/time.css">
+</head>
+
+<body>
+  <div class="nowDate">
+    <div>
+      <span id="nowWeek"></span>
+      <span id="nowTime"></span>
+    </div>
+    <div id="nowDate"></div>
+  </div>
+  <div class="timer">
+    <span>计时:</span>
+    <span id="meetingHour">00</span><span class="dot">:</span>
+    <span id="meetingMin">00</span><span class="dot">:</span>
+    <span id="meetingSec">00</span>
+  </div>
+  <script src="/js/utils.js"></script>
+  <script>
+    // 顶栏日期、计时
+    setInterval(() => {
+      getDate();
+    }, 1000);
+  </script>
+</body>
+
+</html>

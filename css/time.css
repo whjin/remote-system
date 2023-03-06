@@ -1,0 +1,48 @@
+.nowDate {
+    display: inline-block;
+    width: 118px;
+}
+
+.nowDate div {
+    color: rgba(255, 255, 255, 1);
+    font: bold 16px/28px Source Han Sans SC;
+    letter-spacing: 1px;
+}
+
+.nowDate div:nth-child(1) span:nth-child(2) {
+    margin-left: 5px;
+    color: #3797ff;
+}
+
+.nowDate div:nth-child(2) {
+    font: normal 18px/22px Source Han Sans SC;
+}
+
+.timer {
+    display: inline-block;
+    width: 227px;
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+    bottom: 12px;
+    font: bold 22px/35px Source Han Sans SC;
+}
+
+.timer span:nth-child(1) {
+    color: #35fffa;
+    font: bold 18px/28px Source Han Sans SC;
+}
+
+#meetingHour,
+#meetingMin,
+#meetingSec {
+    background: url(../assets/num.png);
+    background-size: 24px 36px;
+    letter-spacing: 11px;
+    display: inline-block;
+    width: 45px;
+    padding-left: 5px;
+}
+
+.dot {
+    position: absolute;
+}

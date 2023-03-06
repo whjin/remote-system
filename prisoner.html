@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>远程提讯系统</title>
+    <link rel="icon" href="../assets/favicon.ico">
+    <link href="/css/umeditor.min.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/h5splayer.css">
+    <link rel="stylesheet" href="/css/prisoner.css">
+</head>
+
+<body>
+    <div class="body" id="view">
+        <div class="videoBox">
+            <div class="contentBorder"></div>
+            <div class="contentBox">
+                <p class="videoTitle" style="padding:0 46px;"><img src="/assets/bigTitle.png"
+                        style="position:relative;top:12px;" /><span class="videoTitle videoTitleNew">文书展示</span></p>
+                <iframe id="iframeTime" src="/time" frameborder="0"></iframe>
+                <div class="videoBd">
+                    <!--要自动播放要静音才行，视频通话可以把点击事件加到人脸识别按钮，再把静音去掉-->
+                    <video id="remote-video" class="bigVideo" src="" controlslist="nodownload" autoplay
+                        controlslist="nodownload"></video>
+                    <video id="local-video" class="bigVideo prisonVideo" src="" controlslist="nodownload" autoplay
+                        controlslist="nodownload"></video>
+                </div>
+                <div class="scanBox" style="display: none;">
+                    <div class="writeNoteBox readSignBox">
+                        <img id="highMeterPhoto" src="" style="height: 100%;width:100%;">
+                    </div>
+                </div>
+                <div class="signBox" style="display: none;">
+                    <div class="writeNoteBox readSignBox">
+                        <script type="text/plain" id="editor"></script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--通知提醒框-->
+    <div id="notice" style="display: none;">
+        <span id="noticeIcon"></span>
+        <span id="noticeText"></span>
+    </div>
+    <script src='/js/adapter.js'></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/jquery-3.4.1.min.js"></script>
+    <!--编辑器-->
+    <script src="/js/ueditor/template.min.js"></script>
+    <script src="/js/ueditor/umeditor.config.js"></script>
+    <script src="/js/ueditor/umeditor.min.js"></script>
+    <script src="/js/ueditor/zh-cn.js"></script>
+    <!-- rtsp -->
+    <script src="/js/rtsp/adapter.js"></script>
+    <script src="/js/rtsp/platform.js"></script>
+    <script src="/js/rtsp/h5splayer.js"></script>
+    <script src="/js/rtsp/h5splayerhelper.js"></script>
+    <script src="/js/index.js"></script>
+    <script src="/js/utils.js"></script>
+    <script src="/js/prisoner.js"></script>
+    <script>
+        window.onload = function () {
+            // 计时器
+            let iframeTime = document.getElementById("iframeTime");
+            let iframe = document.getElementById("iframeTime").contentWindow;
+            let nowHour = iframe.document.getElementById("meetingHour");
+            let nowMinute = iframe.document.getElementById("meetingMin");
+            let nowSecond = iframe.document.getElementById("meetingSec");
+            let timeCountList = [nowHour, nowMinute, nowSecond];
+            let timeFlag = timeCountList.every((item) => item == null);
+            let prisonerCountTime = 0;
+            let prisonerTimer = null;
+            window['prisonerTimeing'] = {
+                start: function () {
+                    clearInterval(prisonerTimer);
+                    prisonerTimer = setInterval(() => {
+                        prisonerCountTime++;
+                        if (!timeFlag) {
+                            nowSecond.innerHTML = showNum(prisonerCountTime % 60);
+                            nowMinute.innerHTML = showNum(parseInt(prisonerCountTime / 60) % 60);
+                            nowHour.innerHTML = showNum(parseInt(prisonerCountTime / 3600));
+                        }
+                    }, 1000);
+                },
+                stop: function () {
+                    clearInterval(prisonerTimer);
+                    prisonerCountTime = 0;
+                },
+                reset: function () {
+                    clearInterval(prisonerTimer);
+                    prisonerCountTime = 0;
+                    nowSecond.innerHTML = '00';
+                    nowMinute.innerHTML = '00';
+                    nowHour.innerHTML = '00';
+                }
+            };
+        };
+    </script>
+</body>
+
+</html>

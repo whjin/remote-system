@@ -1,0 +1,19 @@
+{
+  "name": "meeting-system",
+  "version": "0.0.1",
+  "description": "online-meeting",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "https": "^1.0.0",
+    "jquery": "^3.4.1",
+    "jsdom": "^16.2.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}

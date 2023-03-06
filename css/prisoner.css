@@ -1,0 +1,14 @@
+.edui-toolbar {
+    display: none;
+}
+
+.edui-container .edui-editor-body {
+    height: 100%;
+}
+
+#video,
+#canvas {
+    position: absolute;
+    left: 41px;
+    top: 54px;
+}

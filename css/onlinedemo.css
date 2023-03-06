@@ -1,0 +1,83 @@
+/*
+  Created by JetBrains PhpStorm.
+  @describtion: style of document
+  @time: 2012-04-12
+*/
+/*ue reset issue*/
+table{border-collapse: separate;border-spacing: 2px;}
+input{margin: 3px 3px 3px 4px;*margin: 1px 0 0 0;}
+.edui-for-customstyle .edui-listitem-label{line-height: 38px;}
+
+
+.bg{ background-color: #fff;}
+.btn{display:block;position:relative;left:790px;width: 67px;height: 28px;margin-top:15px;padding-top:5px;background:url('../ipanel/images/ct-submitbg.png') no-repeat;font-size:14px;color: white;text-align:center;cursor: pointer;}
+#content .section{ width: 860px; margin: 0 auto;padding-bottom: 25px;}
+.section h3{ margin: 25px 0 10px 0px; border-bottom: 1px dotted #aba6a2; font-weight: bolder; font-size: 18px;color: #0E3E5E;}
+.section h4{margin: 10px 0;border-bottom: 1px dotted #aba6a2;font-weight: bolder;  font-size: 14px;color: #0E3E5E;}
+.section .details{ margin-top: 5px;clear:both; }
+.section .details input{ color: #3E3E3E;font-size: 12px;padding: 4px; }
+.section .details li{float: left;margin-left: 15px;}
+.section .details li a{cursor: pointer;color: #3E3E3E;}
+
+.link{ margin: 0px 5px;text-align:right;float:right; }
+.link a{color: #ff2528;}
+
+/* 导入word的按钮 */
+.note{
+    margin: 5px;
+}
+.note .remind{
+    width: 550px;
+    float: left;
+}
+.clearfix{
+    clear: both;
+}
+.uploadbtn {
+    float:right;
+    width: 120px;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+.uploadbtn .webuploader-pick{
+    margin:-6px 0 0 0;
+    padding:4px 10px;
+    height:20px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    /*background-color: #f0ad4e;*/
+    /*border: 1px solid #eea236;*/
+    background-color: #5cb85c;
+    border: 1px solid #4db852;
+    border-radius: 2px;
+    color: #fff;
+}
+.uploadbtn .webuploader-pick-hover{
+    color: #fff;
+    /*background-color: #ec971f;*/
+    /*border-color: #d58512*/
+    background-color: #468847;
+    border-color: #468847;
+}
+.uploadhelp{
+    cursor: pointer;
+}
+.uploadcount{
+    float:right;
+    width:120px;
+    text-align:right;
+    display:block;
+    color: #5EAF28;
+}
